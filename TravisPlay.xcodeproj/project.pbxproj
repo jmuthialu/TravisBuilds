@@ -13,6 +13,7 @@
 		DC2A460E1BE910DA00E1FE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2A460D1BE910DA00E1FE9A /* Assets.xcassets */; };
 		DC2A46111BE910DA00E1FE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2A460F1BE910DA00E1FE9A /* LaunchScreen.storyboard */; };
 		DC2A461C1BE910DA00E1FE9A /* TravisPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A461B1BE910DA00E1FE9A /* TravisPlayTests.swift */; };
+		DC2A46281BE9110500E1FE9A /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = DC2A46271BE9110500E1FE9A /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DC2A46171BE910DA00E1FE9A /* TravisPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2A461B1BE910DA00E1FE9A /* TravisPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisPlayTests.swift; sourceTree = "<group>"; };
 		DC2A461D1BE910DA00E1FE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2A46271BE9110500E1FE9A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		DC2A45FA1BE910DA00E1FE9A = {
 			isa = PBXGroup;
 			children = (
+				DC2A46261BE910FC00E1FE9A /* Travis */,
 				DC2A46051BE910DA00E1FE9A /* TravisPlay */,
 				DC2A461A1BE910DA00E1FE9A /* TravisPlayTests */,
 				DC2A46041BE910DA00E1FE9A /* Products */,
@@ -94,6 +97,14 @@
 				DC2A461D1BE910DA00E1FE9A /* Info.plist */,
 			);
 			path = TravisPlayTests;
+			sourceTree = "<group>";
+		};
+		DC2A46261BE910FC00E1FE9A /* Travis */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A46271BE9110500E1FE9A /* .travis.yml */,
+			);
+			name = Travis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 			files = (
 				DC2A46111BE910DA00E1FE9A /* LaunchScreen.storyboard in Resources */,
 				DC2A460E1BE910DA00E1FE9A /* Assets.xcassets in Resources */,
+				DC2A46281BE9110500E1FE9A /* .travis.yml in Resources */,
 				DC2A460C1BE910DA00E1FE9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
