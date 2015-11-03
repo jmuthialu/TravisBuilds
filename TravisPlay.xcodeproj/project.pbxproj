@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2A46071BE910DA00E1FE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A46061BE910DA00E1FE9A /* AppDelegate.swift */; };
+		DC2A46091BE910DA00E1FE9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A46081BE910DA00E1FE9A /* ViewController.swift */; };
+		DC2A460C1BE910DA00E1FE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2A460A1BE910DA00E1FE9A /* Main.storyboard */; };
+		DC2A460E1BE910DA00E1FE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2A460D1BE910DA00E1FE9A /* Assets.xcassets */; };
+		DC2A46111BE910DA00E1FE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2A460F1BE910DA00E1FE9A /* LaunchScreen.storyboard */; };
+		DC2A461C1BE910DA00E1FE9A /* TravisPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A461B1BE910DA00E1FE9A /* TravisPlayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2A46181BE910DA00E1FE9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2A45FB1BE910DA00E1FE9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2A46021BE910DA00E1FE9A;
+			remoteInfo = TravisPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2A46031BE910DA00E1FE9A /* TravisPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2A46061BE910DA00E1FE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC2A46081BE910DA00E1FE9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC2A460B1BE910DA00E1FE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC2A460D1BE910DA00E1FE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC2A46101BE910DA00E1FE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC2A46121BE910DA00E1FE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2A46171BE910DA00E1FE9A /* TravisPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2A461B1BE910DA00E1FE9A /* TravisPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisPlayTests.swift; sourceTree = "<group>"; };
+		DC2A461D1BE910DA00E1FE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2A46001BE910DA00E1FE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2A46141BE910DA00E1FE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2A45FA1BE910DA00E1FE9A = {
+			isa = PBXGroup;
+			children = (
+				DC2A46051BE910DA00E1FE9A /* TravisPlay */,
+				DC2A461A1BE910DA00E1FE9A /* TravisPlayTests */,
+				DC2A46041BE910DA00E1FE9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2A46041BE910DA00E1FE9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A46031BE910DA00E1FE9A /* TravisPlay.app */,
+				DC2A46171BE910DA00E1FE9A /* TravisPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2A46051BE910DA00E1FE9A /* TravisPlay */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A46061BE910DA00E1FE9A /* AppDelegate.swift */,
+				DC2A46081BE910DA00E1FE9A /* ViewController.swift */,
+				DC2A460A1BE910DA00E1FE9A /* Main.storyboard */,
+				DC2A460D1BE910DA00E1FE9A /* Assets.xcassets */,
+				DC2A460F1BE910DA00E1FE9A /* LaunchScreen.storyboard */,
+				DC2A46121BE910DA00E1FE9A /* Info.plist */,
+			);
+			path = TravisPlay;
+			sourceTree = "<group>";
+		};
+		DC2A461A1BE910DA00E1FE9A /* TravisPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A461B1BE910DA00E1FE9A /* TravisPlayTests.swift */,
+				DC2A461D1BE910DA00E1FE9A /* Info.plist */,
+			);
+			path = TravisPlayTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2A46021BE910DA00E1FE9A /* TravisPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2A46201BE910DA00E1FE9A /* Build configuration list for PBXNativeTarget "TravisPlay" */;
+			buildPhases = (
+				DC2A45FF1BE910DA00E1FE9A /* Sources */,
+				DC2A46001BE910DA00E1FE9A /* Frameworks */,
+				DC2A46011BE910DA00E1FE9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravisPlay;
+			productName = TravisPlay;
+			productReference = DC2A46031BE910DA00E1FE9A /* TravisPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2A46161BE910DA00E1FE9A /* TravisPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2A46231BE910DA00E1FE9A /* Build configuration list for PBXNativeTarget "TravisPlayTests" */;
+			buildPhases = (
+				DC2A46131BE910DA00E1FE9A /* Sources */,
+				DC2A46141BE910DA00E1FE9A /* Frameworks */,
+				DC2A46151BE910DA00E1FE9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2A46191BE910DA00E1FE9A /* PBXTargetDependency */,
+			);
+			name = TravisPlayTests;
+			productName = TravisPlayTests;
+			productReference = DC2A46171BE910DA00E1FE9A /* TravisPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2A45FB1BE910DA00E1FE9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jay Muthialu";
+				TargetAttributes = {
+					DC2A46021BE910DA00E1FE9A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DC2A46161BE910DA00E1FE9A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DC2A46021BE910DA00E1FE9A;
+					};
+				};
+			};
+			buildConfigurationList = DC2A45FE1BE910DA00E1FE9A /* Build configuration list for PBXProject "TravisPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC2A45FA1BE910DA00E1FE9A;
+			productRefGroup = DC2A46041BE910DA00E1FE9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2A46021BE910DA00E1FE9A /* TravisPlay */,
+				DC2A46161BE910DA00E1FE9A /* TravisPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2A46011BE910DA00E1FE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2A46111BE910DA00E1FE9A /* LaunchScreen.storyboard in Resources */,
+				DC2A460E1BE910DA00E1FE9A /* Assets.xcassets in Resources */,
+				DC2A460C1BE910DA00E1FE9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2A46151BE910DA00E1FE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2A45FF1BE910DA00E1FE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2A46091BE910DA00E1FE9A /* ViewController.swift in Sources */,
+				DC2A46071BE910DA00E1FE9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2A46131BE910DA00E1FE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2A461C1BE910DA00E1FE9A /* TravisPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2A46191BE910DA00E1FE9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2A46021BE910DA00E1FE9A /* TravisPlay */;
+			targetProxy = DC2A46181BE910DA00E1FE9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC2A460A1BE910DA00E1FE9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2A460B1BE910DA00E1FE9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC2A460F1BE910DA00E1FE9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2A46101BE910DA00E1FE9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2A461E1BE910DA00E1FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2A461F1BE910DA00E1FE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2A46211BE910DA00E1FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravisPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NexTraq.TravisPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC2A46221BE910DA00E1FE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravisPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NexTraq.TravisPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC2A46241BE910DA00E1FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravisPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NexTraq.TravisPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravisPlay.app/TravisPlay";
+			};
+			name = Debug;
+		};
+		DC2A46251BE910DA00E1FE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravisPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NexTraq.TravisPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravisPlay.app/TravisPlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2A45FE1BE910DA00E1FE9A /* Build configuration list for PBXProject "TravisPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2A461E1BE910DA00E1FE9A /* Debug */,
+				DC2A461F1BE910DA00E1FE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2A46201BE910DA00E1FE9A /* Build configuration list for PBXNativeTarget "TravisPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2A46211BE910DA00E1FE9A /* Debug */,
+				DC2A46221BE910DA00E1FE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC2A46231BE910DA00E1FE9A /* Build configuration list for PBXNativeTarget "TravisPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2A46241BE910DA00E1FE9A /* Debug */,
+				DC2A46251BE910DA00E1FE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2A45FB1BE910DA00E1FE9A /* Project object */;
+}
